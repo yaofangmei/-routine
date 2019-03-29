@@ -1,0 +1,57 @@
+/* pages/mine/mine.wxss */
+page {
+  background-color: #eee;
+}
+/* -------------------section1 start-------------- */
+.section1{
+  background-color: #eee;
+  border: 1rpx solid #ccc;
+  border-radius: 8rpx;
+  margin-top: 5rpx;
+}
+.section1 .login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60rpx 0;
+  
+}
+.section1 .login image{
+  display: flex;
+  width: 150rpx;
+  height: 150rpx;
+}
+.section1 .login text{
+  font-size: 35rpx;
+  margin-top: 30rpx;
+}
+/* -------------------section2 start-------------- */
+.section2 .content {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  margin-top: 20rpx;
+  
+}
+.section2 .content .content-left{
+  display: flex;
+  align-items: center;
+  margin-left: 30rpx;
+}
+.section2 .content .content-left image{
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 30rpx;
+}
+.section2 .content text{
+  font-size: 35rpx;
+}
+.section2 .content .content-right{
+  display: flex;
+  align-items: center;
+}
+.section2 .content .content-right image{
+  width: 90rpx;
+  height: 90rpx;
+  margin-right: 10rpx;
+}

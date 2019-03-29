@@ -1,0 +1,78 @@
+<view class='container'>
+  <!----------------- tab部分 -------------------->
+  <view class='tab'>
+      <view bindtap='onhouseTypeClick' class="houseType {{selected1?'green':'default'}}">
+        <view>户型</view>
+        <image src='../../images/xia-jiantou.png'></image>
+      </view>
+      <view bindtap='onhouseStyleClick' class="houseStyle {{selected2?'green':'default'}}">
+        <view>风格</view>
+        <image src='../../images/xia-jiantou.png'></image>
+      </view>
+      <view bindtap='onhouseAreaClick' class="houseArea {{selected3?'green':'default'}}">
+        <view>面积</view>
+        <image src='../../images/xia-jiantou.png'></image>
+      </view>
+      <view bindtap='onhouseBudgetClick' class="houseBudget {{selected4?'green':'default'}}">
+        <view>预算</view>
+        <image src='../../images/xia-jiantou.png'></image>
+      </view>
+  </view>
+  <view class="tab-container" wx:if="{{openTypeTab}}">
+    <block wx:for="{{houseTypeList}}" wx:for-item="item" wx:key="key"> 
+      <view class='alltext' data-id="{{index}}" bindtap='alltextClick' style="{{index == itemId?'background-color:green':''}}">
+        <text class='text' >{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+   <view class="shadow" wx:if="{{openTypeTab}}"></view>
+
+    <view class="tab-container" wx:if="{{openStyleTab}}">
+    <block wx:for="{{houseStyleList}}" wx:for-item="item" wx:key="key"> 
+      <view class='alltext' data-id="{{index}}" bindtap='alltextClick' style="{{index == itemId?'background-color:green':''}}">
+        <text class='text' >{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+   <view class="shadow" wx:if="{{openStyleTab}}"></view>
+
+   <view class="tab-container" wx:if="{{openAreaTab}}">
+    <block wx:for="{{houseAreaList}}" wx:for-item="item" wx:key="key"> 
+      <view class='alltext' data-id="{{index}}" bindtap='alltextClick' style="{{index == itemId?'background-color:green':''}}">
+        <text class='text' >{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+   <view class="shadow" wx:if="{{openAreaTab}}"></view>
+
+   <view class="tab-container" wx:if="{{openBudgetTab}}">
+    <block wx:for="{{houseBudgetList}}" wx:for-item="item" wx:key="key"> 
+      <view class='alltext' data-id="{{index}}" bindtap='alltextClick' style="{{index == itemId?'background-color:green':''}}">
+        <text class='text' >{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+   <view class="shadow" wx:if="{{openBudgetTab}}"></view>
+
+  <!-------------- 下面内容部分 ------------------->
+  <view class='content-container'>
+    <view class='content'>
+      <block wx:for="{{caseContent}}" wx:for-item="item" wx:key="key">
+        <view class='content-item'>
+          <view class='part1'>
+            <view class='avatar'>{{item.avatar}}</view>
+            <view class='name'>{{item.name}}</view>
+          </view> 
+          <view class='part2'>
+            <image src='{{item.imgUrl}}'></image>
+          </view>
+          <view class='part3'>
+            <view class='style'>{{item.style}}</view>
+            <view class='detail'>{{item.detail}}</view>
+          </view>
+        </view>
+      </block>
+    </view>
+  
+  </view>
+</view>

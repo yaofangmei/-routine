@@ -1,0 +1,149 @@
+/* pages/company/company.wxss */
+/* page{
+   background-color: #eee;
+} */
+/* -------------section1 start---------- */
+.section1 {
+  margin: 0 30rpx;
+  display: flex;
+  justify-content:flex-start;
+  height: 60rpx;
+  background-color: #eee;
+}
+.section1 .section1_left{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20rpx 20rpx;
+  border-right: 1rpx solid #ccc;
+}
+.section1 .section1_left .text{}
+.section1 .section1_left image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.section1 .section1_right {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  padding: 20rpx;
+}
+.section1 .section1_right icon{
+  width: 30rpx;
+  height: 30rpx;
+}
+.section1 .section1_right .input{
+  padding: 30rpx;
+  font-size: 30rpx;
+  color: #eee;
+}
+/* -------------section2 start---------- */
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1rpx solid #ddd;
+  border-bottom: 1rpx solid #ddd;
+  margin-top: 20rpx;
+}
+.section2 .item{
+ margin: 20rpx 30rpx 20rpx 50rpx;
+  
+}
+.section2 .item1{}
+.section2 .item1 .text{}
+.section2 .item1 image{
+  width: 30rpx;
+  height: 30rpx;
+}
+.section2 .item2{
+  
+}
+.section2 .item3{}
+.section2 .item4{
+  width: 40rpx;
+  height:40rpx;
+}
+.container2{
+  background-color: #eee;
+  /* height: 100%; */
+}
+.container2 .part1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20rpx;
+ 
+}
+.container2 .part1 .jingxuan{
+  font-size: 28rpx;
+  color: #aaa;
+  margin-left:25rpx;
+}
+.container2 .part1 .guanggao{
+  font-size: 28rpx;
+  color: #aaa;
+  margin-right:25rpx;
+}
+.container2 .part2{
+  /* display: flex; */
+  margin: 20rpx 30rpx 0 30rpx;
+  /* background: #fff; */
+  border-radius: 30rpx;
+}
+.part2 .loop{
+  margin-bottom: 20rpx;
+  background: #fff;
+  border-radius: 30rpx;
+  padding-bottom: 20rpx;
+}
+.part2 .item{
+  display: flex;
+  justify-content: flex-start; 
+  padding-left: 30rpx;
+  margin-top: 20rpx;
+}
+.part2 .item1{
+ padding-top: 30rpx;
+}
+.part2 .item1 .avatar{
+ margin-right: 30rpx;
+}
+.part2 .item2 .case{
+ margin-right: 30rpx;
+}
+.part2 .item3 .each{
+  border: 1rpx solid blue;
+  border-radius: 10rpx;
+  margin-right: 10rpx;
+  padding: 10rpx;
+  font-size: 20rpx;
+}
+.part2 .item4{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.part2 .item4 image{
+  width: 205rpx;
+  height: 200rpx;
+  border-radius:8rpx;
+  margin-right: 10rpx;
+}
+
+/* ---------------------------------------------------s */
+.kuai{
+  width: 100%;
+  height: 300rpx;
+  background-color: #888888;
+  margin-bottom: -250px;
+  /* margin-bottom: -153px; */
+  position: fixed;
+  bottom: 0;
+}
+.les{
+  color: white;
+  text-align: center;
+  height: 100rpx;
+  width: 100%;
+  line-height: 100rpx;
+  border-bottom:1rpx solid black; 
+}

@@ -1,0 +1,145 @@
+/* pages/picture/picture.wxss */
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 100rpx;
+  background-color: white;
+  border-top: 1rpx solid #ddd;
+  border-bottom: 1rpx solid #ddd;
+}
+.header image{
+  width: 30rpx;
+  height: 30rpx;
+}
+.header .item{
+  display: flex;
+  align-items:center;
+  align-content:center;
+  /* justify-content: flex-start; */
+  /* justify-content: space-around; */
+
+}
+
+.content-container image{
+  width: 30rpx;
+  height: 30rpx;
+}
+
+/* ---------------------------------- */
+/* 带遮罩层的下拉菜单 *//*根布局-点击项*/ 
+.content-container {   
+	width: 100%;   
+	height: 100%;  
+	position: absolute; 
+  
+} 
+/*筛选头部*/ 
+.pick-header {  
+  display: flex;
+  justify-content: space-around; 
+  align-items:center;
+  align-content:center;
+	width: 100%;   
+	padding: 28rpx 20rpx;  
+	z-index: 60;   
+  position: fixed;   
+	font-size: 28rpx;  
+	color: #666;  
+	background-color: #fff; 
+ 
+} 
+.pick-header1{
+  display: flex;
+  justify-content: space-around;
+} 
+.pick-header2{
+  display: flex;
+  justify-content: space-around;
+}
+.pick-header3{
+  display: flex;
+  justify-content: space-around;
+}
+/*
+/*
+
+/*筛选项容器布局*/ 
+.pick-container {   
+  display: flex;
+  /* flex-direction: row; */
+  align-content:center;
+  align-items:flex-start;
+	width: 100%;   
+	background-color: #fff;   
+	position: absolute;   
+	z-index: 50;   
+	top: -540rpx; 
+} 
+.pick-container text { 
+ 	display: block;  
+	line-height: 88rpx;  
+ 	border-bottom: 1px solid #eee;
+ }
+ /*筛选项隐藏 显示动画 start*/ 
+ @keyframes slidown {   
+ 	from {     transform: translateY(0%);   }   
+ 	to {     transform: translateY(100%);   } 
+ } 
+ .slidown {   
+ 	display: block;   
+ 	animation: slidown 0.1s ease-in both; 
+ } 
+ @keyframes slidup {   
+ 	from { transform: translateY(100%); }   
+ 	to { transform: translateY(0%); } 
+} 
+.slidup {  
+	display: block;   
+	animation: slidup 0.2s ease-in both; 
+} 
+/*筛选项隐藏 显示动画 end*/ /*筛选项显示出来的时候的阴影*/ 
+.shadow {   
+	width: 100%;   
+	height: 100%;  
+	background-color: rgba(0, 0, 0, 0.3);   
+	z-index: 40;   
+	top: 72rpx; 
+} 
+/*内容容器布局*/ 
+.content {   
+	width: 100%;   
+	position: absolute;   
+	top: 90rpx;   
+	z-index: 20; 
+} 
+
+
+/* ---------------------------------- */
+
+page{
+  background-color: #eee;
+}
+.case-page{
+  padding:20rpx;
+}
+.list-masonry{
+  column-count: 2;
+  column-gap: 20rpx;
+}
+.item-masonry{
+  background-color: #fff;
+  break-inside: avoid; 
+  box-sizing: border-box;
+  padding: 20rpx;
+}
+.item-masonry image {
+  width: 100%;
+}
+.item-masonry-avatar{
+  display: flex;
+  justify-content: flex-start;
+ 
+}
+.item-masonry .company{
+ margin-left: 20rpx;
+}

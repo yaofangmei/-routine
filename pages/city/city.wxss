@@ -1,0 +1,102 @@
+/* pages/city/city.wxss */
+/* ------------------section1 start---------------- */
+.section1{
+border-bottom: 1rpx solid #ccc;
+}
+.section1 .content{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1rpx solid rgba(194, 189, 189, 0.103);
+  margin: 15rpx 30rpx;
+  border-radius: 5rpx;
+  background-color: rgba(194, 189, 189, 0.103);
+}
+.section1 .content .icon{
+ margin: 5rpx;
+}
+.section1 .content .input{
+  margin: 5rpx;
+}
+
+/* ------------------section2 start---------------- */
+.section2 .part1{
+  display: flex;
+  align-items: center;
+  padding: 30rpx 30rpx 30rpx;
+}
+.section2 .part1 .textpre{
+  color: #aaa;
+}
+/* ------------------part2 start---------------- */
+.section2 .part2{
+  box-sizing: border-box;
+  width: 100%;
+}
+.section2 .part2 .text{
+  display: flex;
+  /* justify-content: center; */
+  color: #aaa;
+  background-color: rgba(194, 189, 189, 0.103);
+  padding: 10rpx 30rpx 10rpx;
+}
+/* ------------------part3 start---------------- */
+.section2 .part3{
+  margin: 20rpx 30rpx;
+}
+.part3 .position {
+  display: flex;
+}
+.part3 .position .default{
+  display: flex;
+  border: 1rpx solid green;
+  margin-right: 30rpx;
+  padding: 20rpx 70rpx 20rpx 60rpx;
+}
+.part3 .position .default image{
+  width: 40rpx;
+  height: 40rpx;
+  padding-right: 10rpx;
+}
+.part3 .position .location{
+  border: 1rpx solid #ccc;
+  padding: 20rpx 80rpx;
+}
+/* ------------------part4 start---------------- */
+.section2 .part4{
+  box-sizing: border-box;
+  width: 100%;
+}
+.section2 .part4 .text{
+  display: flex;
+  /* justify-content: center; */
+  color: #aaa;
+  background-color: rgba(194, 189, 189, 0.103);
+  padding: 10rpx 30rpx 10rpx;
+}
+/* ------------------part5 start---------------- */
+.part5 .position {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
+}
+.part5 .position .location{
+  display: flex;
+  border: 1rpx solid #ccc;
+  margin-right: 30rpx;
+  padding: 20rpx 70rpx 20rpx 60rpx;
+  margin-top: 20rpx;
+}
+/* ------------------part6 start---------------- */
+.section2 .part6{
+  box-sizing: border-box;
+  width: 100%;
+}
+.section2 .part6 .text{
+  display: flex;
+  /* justify-content: center; */
+  color: #aaa;
+  background-color: rgba(194, 189, 189, 0.103);
+  padding: 10rpx 30rpx 10rpx;
+}

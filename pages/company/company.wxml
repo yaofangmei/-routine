@@ -1,0 +1,58 @@
+<view class='container'>
+  <view class='section1'>
+    <view class='section1_left' bindtap='cityClick'>
+      <text class='text'>深圳</text>
+      <image src='../../images/xia-jiantou.png'></image>
+    </view>
+    <view class='section1_right'>
+      <icon type='search' size='40rpx'></icon>
+      <input class='input' placeholder='请输入装修公司名称'></input>
+    </view>
+  </view>
+  <view class='section2'>
+    <view class='item item1' bindtap='tanchu'>
+      <text class='text'>综合</text>
+      <image src='../../images/jiantou1.png'></image>
+    </view>
+    <view class='item item2' bindtap='tapClick' style='color:{{color}}'>信用</view>
+    <view class='item item3' bindtap='tapClick1'>距离</view>
+    <image class='item item4' src='../../images/caidan.png'></image>
+  </view>
+  <view class='container2'>
+    <view class='part1'>
+      <view class='jingxuan'>精选商家</view>
+      <view class='guanggao'>广告</view>
+    </view>
+    <view class='part2'>
+      <block wx:for="{{partList}}" wx:for-item="item" wx:key="key">
+        <view class='loop'>
+          <view class='item item1'>
+            <view class='avatar'>{{item.avatar}}</view>
+            <view class='name'>{{item.name}}</view>
+          </view>
+          <view class='item item2'>
+            <view class='case'>{{item.case}}</view>
+            <view class='site'>{{item.site}}</view>
+          </view>
+          <view class='item item3'>
+            <view class='each each1'>{{item.pay1}}</view>
+            <view class='each each2'>{{item.pay2}}</view>
+            <view class='each each3'>{{item.pay3}}</view>
+          </view>
+          <view class='item item4'>
+            <image src="{{item.imgUrl}}"></image>
+            <image src="{{item.imgUrl}}"></image>
+            <image src="{{item.imgUrl}}"></image>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+  <!-- <view class='kuai' animation="{{animationData}}">
+      <view class='les'>综合</view>
+      <view class='les'>工地</view>
+      <view class='les'  bindtap='hideModal'>案例</view>
+  </view> -->
+
+</view>

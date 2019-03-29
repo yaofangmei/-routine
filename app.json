@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/company/company",
+    "pages/picture/picture",
+    "pages/mine/mine",
+    "pages/city/city",
+    "pages/login/login",
+    "pages/coupon/coupon",
+    "pages/case/case",
+    "pages/strategy/strategy",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "土巴兔装修",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#e64340",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "box-shadow": "0 0 6px 0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/shouye0.png",
+        "selectedIconPath": "images/shouye1.png"
+      },
+      {
+        "pagePath": "pages/company/company",
+        "iconPath": "images/gongsi0.png",
+        "selectedIconPath": "images/gongsi1.png"
+      },
+      {
+        "pagePath": "pages/picture/picture",
+        "iconPath": "images/tuku0.png",
+        "selectedIconPath": "images/tuku1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/wode0.png",
+        "selectedIconPath": "images/wode1.png"
+      }
+    ]
+  }
+}

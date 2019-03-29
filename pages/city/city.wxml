@@ -1,0 +1,68 @@
+<view class='container'>
+  <!-- ------------------section1 start----------------  -->
+  <view class='section1'>
+    <view class='content'>
+      <icon class='icon' type="search" size='35rpx'/>
+      <input class='input' placeholder='请输入城市名'></input>
+    </view>
+  </view>
+  
+  <!-- ------------------section2 start----------------  -->
+  <view  class='section2'>
+    <view class='content'>
+    <!-- ------------------part1 start----------------  -->
+      <view class='part1'>
+        <text class='textpre'>当前：</text>
+        <text class='text'>北京</text>
+      </view>
+      <!-- ------------------part2 start----------------  -->
+      <view class='part2'>
+        <view class='text'> 
+          <view>定位/最近访问</view>
+        </view>
+      </view>
+      <!-- ------------------part3 start----------------  -->
+      <view class='part3'>
+        <view class='position'>
+          <view class='default'>
+             <image src='../../images/wode1.png'></image>
+             <text>深圳</text>
+          </view>
+          <text class='location'>深圳</text>
+        </view>
+      </view>
+      <!-- ------------------part4 start----------------  -->
+      <view class='part4'>
+        <view class='text'> 
+          <view>热门城市</view>
+        </view>
+      </view>
+      <!-- ------------------part5 start----------------  -->
+      <view class='part5'>
+        <view class='part5'>
+          <view class='position'>
+            <block wx:for="{{cites}}" wx:for-item="item" wx:key="key">
+              <text class='location'>{{item.name}}</text>
+            </block> 
+          </view>
+        </view>
+      </view>
+      <!-- ------------------part6 start----------------  -->
+      <view class='part6'>
+        <view class='select-box'>
+          <block wx:for="{{cityAZ}}" wx:for-item="item" wx:key="key">
+            <view class='text'> 
+              <view>{{item.letter}}</view> 
+            </view>
+          </block>
+          <view class='city-item-content'>
+            <text class='textpre'>当前：</text>
+            <text class='text'>北京</text>
+          </view>
+        </view> 
+          
+      </view>
+      <!-- ------------------part部分 end----------------  -->
+    </view>
+  </view>
+</view>

@@ -1,0 +1,55 @@
+/* pages/strategy/strategy.wxss */
+/* ----------------tab部分--------------- */
+.tab {
+ padding: 20rpx 0 30rpx 30rpx;
+ border-top: 1rpx solid #ccc;
+ border-bottom: 1rpx solid #ccc;
+ position: fixed;
+ background-color: #fff;
+ width: 100%;
+}
+.tab .scroll-view{
+  width: 100%;
+  white-space: nowrap; 
+}
+.tab .tabList{
+  /* 使tab栏的内容显示在一行的代码 */
+  display: inline-block; 
+}
+.name{
+ margin-right: 30rpx;
+}
+.name-hover{
+  font-size: 40rpx;
+  font-weight: 700;
+}
+
+/* ----------------下面内容部分--------------- */
+.content{
+  margin: 0 30rpx 0 30rpx;
+  padding-top: 100rpx;
+}
+.content .item{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.content .item .item-left{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20rpx;
+}
+.content .item .item-left .item-left-1{
+  font-size: 35rpx;
+  font-weight: 700;
+}
+.content .item .item-left .item-left-2{
+  margin-top:20rpx;
+}
+.content .item .item-right image{
+  width: 200rpx;
+  height: 150rpx;
+}
+

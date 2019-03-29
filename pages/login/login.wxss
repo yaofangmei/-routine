@@ -1,0 +1,77 @@
+/* pages/login/login.wxss */
+/* -------------------section1 start-------------- */
+.section1{
+  border-radius: 8rpx;
+  margin-top: 5rpx;
+}
+.section1 .login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100rpx 0;
+  
+}
+.section1 .login image{
+  display: flex;
+  width: 150rpx;
+  height: 150rpx;
+}
+/* -------------------section2 start-------------- */
+.section2{
+  border-top: 1rpx solid #ccc;
+  display: flex;
+  
+}
+.section2 .content{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.section2  .content .phoneNumber{
+ /* display: flex; */
+ margin-left: 30rpx;
+ padding-top: 30rpx;
+ padding-bottom: 30rpx;
+ 
+}
+.section2  .content .input{
+ margin-left: 30rpx;
+ padding-top: 30rpx;
+ padding-bottom: 30rpx;
+ padding-right:80rpx;
+ border-right: 1rpx solid #ccc;
+}
+.section2  .content .achieve{
+ margin-left: 30rpx;
+  padding-top: 30rpx;
+ padding-bottom: 30rpx;
+ color: #aaa;
+}
+/* -------------------section3 start-------------- */
+.section3{
+  display: flex;
+  border-bottom: 1rpx solid #ccc;
+  border-top: 1rpx solid #ccc; 
+}
+.section3 .content{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15rpx;
+  margin-bottom:15rpx;
+}
+.section3 .content .identifyCode{
+  margin-left: 30rpx;
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
+}
+.section3 .content .input{
+  padding-left: 30rpx;
+  padding-top: 15rpx;
+ padding-bottom: 15rpx;
+}
+/* -------------------section4 start-------------- */
+.section4{
+  margin: 50rpx 30rpx 0 30rpx;
+}

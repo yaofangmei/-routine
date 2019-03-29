@@ -1,0 +1,23 @@
+<view class='container'> 
+<!------------- section1 start------------- -->
+  <view class='section1' bindtap='loginClick'>
+    <view class='login'>
+      <image src="../../images/login.png"></image>
+      <text>点击登录</text>
+    </view>
+  </view>
+  <!------------- section2 start------------- -->  
+  <view class='section2' bindtap='applyClick'>
+    <view class='content'>
+      <view class='content-left'>
+        <image src='../../images/youhuiquan.png'></image>
+        <text>优惠券</text>
+      </view>
+      <view class='content-right'>
+        <image src="../../images/you-jiantou.png"></image>
+      </view>
+    </view>
+  
+  </view>
+  
+</view>

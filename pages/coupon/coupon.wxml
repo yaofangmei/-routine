@@ -1,0 +1,24 @@
+<view class='container'>
+  <view class='content'>
+    <view class='tab'>
+    <view class="{{selected?'green':'default'}}" bindtap='selected'>未使用</view>
+    <view class="{{selected1?'green':'default'}}" bindtap='selected1'>已使用</view>
+    <view class="{{selected2?'green':'default'}}" bindtap='selected2'>已过期</view>
+  </view>
+
+<view class='content2'>
+  <view class="{{selected?'show':'hidden'}}" >
+    <view class='tab1'>暂无优惠券1</view>
+  </view>
+  <view class="{{selected1?'show':'hidden'}}">
+    <view class='tab2'>暂无优惠券2</view>
+  </view>
+  <view class="{{selected2?'show':'hidden'}}">
+    <view class='tab3'>暂无优惠券3</view>
+  </view>
+</view>
+  
+
+  </view>
+   
+</view>
